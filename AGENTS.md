@@ -35,7 +35,8 @@ Global guidance for all projects. Only rules the agent cannot discover from code
 n8n, Airtable, GitHub Actions, CI/CD are code. Before building anything new:
 1. List what exists in that system
 2. Read the relevant parts fully
-3. Identify the smallest change that solves the problem
+3. Read the tool's best practices (e.g. @n8n-practices.md for n8n)
+4. Identify the smallest change that solves the problem
 
 ## Language
 
