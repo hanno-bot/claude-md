@@ -10,6 +10,7 @@ Based on Beck (XP, TDD, Tidy First), Martin (Clean Code), Fowler (Strangler Fig,
 |---|---|
 | `AGENTS.md` | OpenClaw, Copilot, Cursor, Codex CLI, Paperclip |
 | `CLAUDE.md` | Claude Code (imports AGENTS.md) |
+| `n8n-practices.md` | Any agent working with n8n workflows |
 
 ## Usage
 
