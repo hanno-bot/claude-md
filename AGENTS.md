@@ -39,4 +39,4 @@ n8n, Airtable, GitHub Actions, CI/CD are code. Before building anything new:
 
 ## Language
 
-Respond in Estonian. Code, comments, and commits in English.
+Respond in the language the user writes in. Code, comments, and commits in English.
