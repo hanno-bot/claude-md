@@ -1,35 +1,26 @@
-# claude-md
+# agents-md
 
-Global `CLAUDE.md` for AI coding agents, based on established software engineering principles.
+Engineering principles for AI coding agents — `AGENTS.md` (cross-agent standard) + `CLAUDE.md` (Claude Code).
 
-## Sources
+Based on Beck (XP, TDD, Tidy First), Martin (Clean Code), Fowler (Strangler Fig, CI), and [ETH Zurich research](https://arxiv.org/abs/2602.11988).
 
-- **Kent Beck** — XP, TDD, Tidy First (2023)
-- **Robert C. Martin** — Clean Code, TDD discipline
-- **Martin Fowler** — Refactoring, Strangler Fig, CI
-- **ETH Zurich** — [Research on context files for coding agents](https://arxiv.org/abs/2602.11988)
+## Files
+
+| File | Who reads it |
+|---|---|
+| `AGENTS.md` | OpenClaw, Copilot, Cursor, Codex CLI, Paperclip |
+| `CLAUDE.md` | Claude Code (imports AGENTS.md) |
 
 ## Usage
 
-Copy `CLAUDE.md` to your project root:
+Copy both files to your project root:
 
 ```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/hanno-bot/claude-md/main/CLAUDE.md
+curl -O https://raw.githubusercontent.com/hanno-bot/claude-md/main/AGENTS.md
+curl -O https://raw.githubusercontent.com/hanno-bot/claude-md/main/CLAUDE.md
 ```
 
-Or add as a git submodule:
-
-```bash
-git submodule add https://github.com/hanno-bot/claude-md.git .claude-md
-```
-
-Then reference it from your project's `CLAUDE.md`:
-
-```markdown
-@.claude-md/CLAUDE.md
-
-# Project-specific rules below
-```
+Then add project-specific rules below the import in `CLAUDE.md` or directly in `AGENTS.md`.
 
 ## Principles
 
