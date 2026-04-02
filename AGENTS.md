@@ -5,6 +5,7 @@ Global guidance for all projects. Only rules the agent cannot discover from code
 ## Philosophy (Beck, Martin, Fowler)
 
 - Simplest thing that works — a 3-line edit beats a 200-line new script
+- Removing code and getting equal results is a win, not a loss (Karpathy)
 - YAGNI — don't build for hypothetical future requirements
 - Read before write — find what exists before creating anything new
 - Tidy First — separate structural changes from behavioral changes, never mix in one commit (Beck 2023)
